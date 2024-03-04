@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f6f6f6;
+  color: #000000;
+}
+.footer{
+  background-color: #f6f6f6;
+  color: #000000;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin-bottom: 13.8px;
+  background-color: #e8e8e8ff;
+}
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  background-color: #46c7b6ff;
+  background-color: #00000050;
+  
+}
+
+.footer{
+ font-family: 'Lato', sans-serif;
+}
+.sidebar{
+  font-family: 'Lato', sans-serif;
+}
+
