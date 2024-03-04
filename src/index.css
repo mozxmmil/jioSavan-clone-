@@ -18,7 +18,6 @@ body {
   color: #000000;
 }
 input[type="range"] {
-  -webkit-appearance: none;
   width: 100%;
   margin-bottom: 13.8px;
   background-color: #e8e8e8ff;
