@@ -1,13 +1,10 @@
 import React from "react";
 import { useEffect } from "react";
 import axios from "axios";
-
+import Siderbar from "../utils/Sidebar"
 import Trending from "../utils/Trending";
-import Sidebar from "../utils/sidebar";
-import { useState } from "react";
-import { MdArrowBackIos } from "react-icons/md";
-import { MdArrowForwardIos } from "react-icons/md";
 
+import { useState } from "react";
 const MainSection = () => {
   const [album, setAlbum] = useState([]);
 
@@ -32,7 +29,7 @@ const MainSection = () => {
   return (
     <div className=" lg:mx-auto bg  flex items-center  ">
       <div className="sidebar w-[15%] h-screen px-10 py-10 hidden lg:block">
-        <Sidebar />
+        <Siderbar />
       </div>
 
       <div className=" w-full h-screen flex flex-wrap  px-10  ">
